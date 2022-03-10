@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --theme-color: #252525;
+    --nav-hover: #fc9602;
+    --theme2-color: #fc9602;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ===============header=============== */
+header{
+    font-family: 'League Spartan', sans-serif;
+}
+header .nav{
+    background-color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 7vh;
+}
+header .nav img{
+    /* width: 50px; */
+    width: 4vw;
+}
+.nav__list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.nav__list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    padding: 5px;
+    transition: 300ms;
+    font-weight: 400;
+}
+.nav__list ul li a:hover{
+    color: var(--nav-hover);
+}
+.nav__list ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: var(--theme-color);
+    right: 10.5vw;
+    top: 5.7vh;
+    border-radius: 1px 1px 17px 17px;
+}
+.nav__list ul li ul li{
+    display: none;
+    padding: 10px;
+}
+#social__hover__menu:hover > ul li{
+    display: block;
+}
+.text__area h1{
+    margin: 10px;
+}
+.text__area #heading_1st_text{
+    color: #fc9602;
+    /* font-size: 50px; */
+    font-size: 3vw;
+    text-shadow: 6px 8px 21px black;
+}
+.text__area #heading_2nd_text{
+    color: white;
+    font-size: 3vw;
+    text-shadow: 6px 8px 21px black;
+}
+.text__area{
+    color: white;
+    background-image: linear-gradient(to bottom, #fc980260, #fc980260), url('dark background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text__area p{
+    margin: 10px;
+    font-size: 1.2vw;
+}
+#subscribe__button{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    background: var(--theme2-color);
+    padding: 10px 20px;
+    border: white solid 3px;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: 300ms;
+    margin: 10px;
+    box-shadow: 0px 0px 89px black;
+}
+#subscribe__button:hover{
+    color: var(--nav-hover);
+    background-color: white;
+}
+#top__list{
+    font-size: 35px;
+    list-style: none;
+}
+#top__list li{
+    display: inline-block;
+}
+#top__list a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 50px;
+}
+#top__list a:hover{
+    color: var(--theme2-color);
+}
+
+/* ===========main============== */
+
+.laptops__box{
+    width: 16vw;
+    height: 17vw;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 3px 0px 3px 3px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px 0px black;
+    border-radius: 3px;
+}
+.laptops__box:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+    transition: 300ms;
+    cursor: pointer;
+}
+.laptops__box img{
+    width: 16vw;
+}
+.laptops__box a{
+    color: white;
+    color: var(--theme2-color);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1vw;
+}
+.mobile__box{
+    width: 246px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 3px 0px 3px 3px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px 0px black;
+    border-radius: 3px;
+}
+.mobile__box:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+    transition: 300ms;
+    cursor: pointer;
+}
+.mobile__box img{
+    width: 205px;
+}
+.mobile__box a{
+    color: white;
+    color: var(--theme2-color);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+}
+ /* ================footer=============== */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--theme-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+
+
+
+
+
