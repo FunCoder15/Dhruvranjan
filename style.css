@@ -190,7 +190,71 @@ footer{
     font-size: 1vw;
     padding: 5px;
 }
+@media only screen and (max-width: 600px){
 
+/* ========header======== */
+header .nav{
+    height: 6vh;
+}
+header .nav img{
+    height: 5.8vh;
+    width: auto;
+}
+.nav__list ul li a {
+    font-size: 3.5vw;
+}
+.nav__list ul li ul{
+    right: 32.5vw;
+}
+.text__area #heading_1st_text {
+    font-size: 9vw;
+}
+.text__area #heading_2nd_text {
+    font-size: 8vw;
+}
+.text__area p {
+    font-size: 4.2vw;
+}
+#subscribe__button{
+    font-size: 4vw;
+}
+/* ===========main=========== */
+.laptops__box{
+    width: 98vw;
+    height: 90vw;
+}
+.laptops__box a{
+    font-size: 5vw;
+}
+.laptops__box img{
+    width: 90vw;
+}
+.mobile__box {
+    width: 98vw;
+    height: 90vw;
+}
+.mobile__box img{
+    width: 78vw;
+}
+.mobile__box a {
+    font-size: 5vw;
+}
+
+
+
+/* ========footer========== */
+footer{
+    font-size: 3vw;
+}
+#top__list a{
+    margin: 0px 50px 0px 50px;
+    font-size: 6vw;
+    padding: 0px;
+}
+
+
+
+}
 
 
 
